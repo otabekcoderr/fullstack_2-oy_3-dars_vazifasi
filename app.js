@@ -29,7 +29,7 @@
 // let a = 1;
 // let b = 30;
 
-// for(let i=a;i<=50;i++){
+// for(let i=a;i<=b;i++){
 //     if(i%3==0){
 //         console.log(i);
 
@@ -153,9 +153,9 @@
 // let juft_sum = 0;
 // for(let i = 1;i<=100;i++){
 //     if(i%2==0){
-//         juft_sum++;
+//         juft_sum+=i;
 //     }else{
-//         toq_sum++;
+//         toq_sum+=i;
 //     }
 // }
 
@@ -220,27 +220,26 @@
 //   console.log(`${num} * ${i} = ${i * num}`);
 // }
 
-// 9
+//9
 
-// let num = +prompt("son kiriting");
-// let tub = true;
+let num = +prompt("son kiriting");
+let tub = true;
 
-// if (num <= 1) {
-//   tub = false;
-// }
+if (num <= 1) {
+  tub = false;
+}
 
-// for (let i = 2; i < num; i++) {
-//   if (num %i === 0) {
-//     tub = false;
-//   }
-//   break;
-// }
-// console.log(tub);
+for (let i = 2; i < num; i++) {
+  if (num %i === 0) {
+    tub = false;
+  };
+}
+console.log(tub);
 
-// if (tub !== true) {
-//   console.log("Tub son emas!");
-// } else {
-//   console.log("Tub son!");
-// }
+if (tub !== true) {
+  console.log("Tub son emas!");
+} else {
+  console.log("Tub son!");
+}
 
 
